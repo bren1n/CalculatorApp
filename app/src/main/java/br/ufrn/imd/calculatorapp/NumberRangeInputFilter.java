@@ -17,23 +17,17 @@ public class NumberRangeInputFilter implements InputFilter {
                                Spanned dest, int dstart, int dend) {
 
         try {
-            // Concatena o texto atual com o texto de origem (source)
             String newText = dest.toString().substring(0, dstart) +
                     source.toString().substring(start, end) +
                     dest.toString().substring(dend);
 
-            // Converte o texto para um número decimal
             double inputVal = Double.parseDouble(newText);
 
-            // Verifica se o número está dentro do intervalo desejado
             if (inputVal >= minValue && inputVal <= maxValue) {
-                return null; // Aceita o valor inserido
+                return null;
             }
-        } catch (NumberFormatException e) {
-            // A entrada não é um número válido, não faz nada
-        }
+        } catch (NumberFormatException e) {}
 
-        // Rejeita a entrada se estiver fora do intervalo ou não for um número válido
         return "";
     }
 }

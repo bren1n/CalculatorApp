@@ -25,9 +25,7 @@ public class SimpleCalculatorFragment extends Fragment {
     TextView operation;
 
     boolean needsBufferReset = false;
-    public SimpleCalculatorFragment() {
-        // Required empty public constructor
-    }
+    public SimpleCalculatorFragment() {}
 
     private void assignIdDigit(Button btn, int id, View view) {
         btn = view.findViewById(id);
