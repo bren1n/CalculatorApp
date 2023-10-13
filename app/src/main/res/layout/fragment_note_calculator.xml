@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteCalculatorFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/note1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="25dp"
+            android:ems="10"
+            android:hint="@string/note1_placeholder"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/note2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="25dp"
+            android:ems="10"
+            android:hint="@string/note2_placeholder"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/note3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="25dp"
+            android:ems="10"
+            android:hint="@string/note3_placeholder"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/note_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="@string/button_note"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/primary_purple"
+            android:textColorLink="@color/primary_purple"
+            android:textSize="18sp"
+            app:backgroundTint="@color/secondary_purple" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:text="@string/developed_by"
+            android:textAlignment="center" />
+    </LinearLayout>
+</FrameLayout>

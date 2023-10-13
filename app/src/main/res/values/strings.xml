@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="tab1">Simples</string>
+    <string name="tab2">Notas</string>
+    <string name="note1_placeholder">Insira a nota 1</string>
+    <string name="note2_placeholder">Insira a nota 2</string>
+    <string name="note3_placeholder">Insira a nota 3</string>
+    <string name="note_result1">Você precisa de:</string>
+    <string name="note_result2_by_note"> na U2 e U3 para ser aprovado por nota</string>
+    <string name="note_result2_by_avg"> na U2 e U3 para ser aprovado por média</string>
+    <string name="note_result3_by_note"> na U3 para ser aprovado por nota</string>
+    <string name="note_result3_by_avg"> na U3 para ser aprovado por média</string>
+    <string name="aprooved">Aprovado: </string>
+    <string name="aprooved_by_note">Aprovado por nota: </string>
+    <string name="disapproved">Reprovado: </string>
+    <string name="button_note">Calcular média</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="divided_by">/</string>
+    <string name="times">*</string>
+    <string name="equals">=</string>
+    <string name="del">DEL</string>
+    <string name="invalid_operation">Operação inválida</string>
+
+    <string name="developed_by">Desenvolvido por: Breno Ferreira</string>
+</resources>
